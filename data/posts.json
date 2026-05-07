@@ -1,6 +1,1 @@
-[
-  {"id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."},
-  {"id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."},
-  {"id": 3, "author": "Alice Smith", "title": "Third Post", "content": "This is yet another post."},
-  {"id": 4, "author": "Bob Johnson", "title": "Fourth Post", "content": "This is the fourth post."}
-]
+[{"id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."}, {"id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}, {"id": 3, "author": "Alice Smith", "title": "Third Post", "content": "This is yet another post."}, {"id": 4, "author": "Anon", "title": "Test Post", "content": "Successful test\r\n"}, {"id": 5, "title": "New Post", "author": "Anon", "content": "This is a newly added post!\r\n"}]

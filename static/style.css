@@ -27,8 +27,10 @@ h1 {
 }
 
 .delete-link {
-    text-decoration: none;
-    border: 1px solid;
-    color: black;
     float: right;
+}
+
+.edit-link {
+    float: right;
+    margin-top: 10px;
 }
