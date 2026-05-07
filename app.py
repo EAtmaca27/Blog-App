@@ -34,6 +34,18 @@ def add():
         return redirect(url_for('index'))
     return render_template('add.html')
 
+@app.route('/delete/<int:post_id>')
+def delete(post_id):
+    with open('data/posts.json', 'r') as f:
+        blog_posts = json.load(f)
+
+    updated_blog_posts = [post for post in blog_posts if post['id'] != post_id]
+
+    with open('data/posts.json', 'w') as f:
+        json.dump(updated_blog_posts, f)
+
+    return redirect(url_for('index'))
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000, debug=True)
