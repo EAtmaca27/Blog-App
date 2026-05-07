@@ -25,3 +25,10 @@ h1 {
 .post p {
     margin: 10px 0;
 }
+
+.delete-link {
+    text-decoration: none;
+    border: 1px solid;
+    color: black;
+    float: right;
+}
